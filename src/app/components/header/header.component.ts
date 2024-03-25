@@ -3,6 +3,8 @@ import { NavbarComponent } from '../navbar/navbar.component';
 import { MenuItemComponent } from '../menu-item/menu-item.component';
 import { DataEntryMenuPanelComponent } from '../data-entry-menu-panel/data-entry-menu-panel.component';
 import { DashboardMenuPanelComponent } from '../dashboard-menu-panel/dashboard-menu-panel.component';
+import { ResearchMenuPanelComponent } from '../research-menu-panel/research-menu-panel.component';
+import { BalancingMenuPanelComponent } from '../balancing-menu-panel/balancing-menu-panel.component';
 
 @Component({
   selector: 'header',
@@ -11,7 +13,9 @@ import { DashboardMenuPanelComponent } from '../dashboard-menu-panel/dashboard-m
     NavbarComponent,
     MenuItemComponent,
     DataEntryMenuPanelComponent,
-    DashboardMenuPanelComponent
+    DashboardMenuPanelComponent,
+    ResearchMenuPanelComponent,
+    BalancingMenuPanelComponent
   ],
   templateUrl: './header.component.html',
   styleUrl: './header.component.scss',
