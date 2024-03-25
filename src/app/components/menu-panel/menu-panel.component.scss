@@ -1,0 +1,13 @@
+.menu-panel {
+    position: absolute;
+    top: 40px;
+    left: -1px;
+    width: 325px;
+    padding: 10px 15px;
+    background-color: var(--menu-panel-background-color);
+    border: 1px solid var(--menu-panel-border-color);
+    border-radius: 0px 6px 6px;
+    box-shadow: 11px 11px 16px 0px rgba(0, 0, 0, 0.1);
+    border-top: 1px solid transparent;
+    cursor: default;
+}

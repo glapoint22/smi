@@ -1,0 +1,29 @@
+.menu-item {
+    position: relative;
+    height: 41px;
+    margin-bottom: -13px;
+    cursor: pointer;
+    padding: 10px;
+    color: var(--menu-item-text-color);
+    border: 1px solid transparent;
+
+    i {
+        padding-left: 4px;
+    }
+
+    &:hover {
+        background-color: var(--menu-item-hover-background-color);
+        border: 1px solid var(--menu-item-border-color);
+        border-bottom: none;
+        border-top-left-radius: 6px;
+        border-top-right-radius: 6px;
+        color: var(--menu-item-hover-text-color);
+        & .menu-panel {
+            display: block;
+        }
+    }
+
+    & .menu-panel {
+        display: none;
+    }
+}

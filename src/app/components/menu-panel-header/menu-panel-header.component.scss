@@ -1,0 +1,9 @@
+.menu-item-panel-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 15px;
+    margin-bottom: 9px;
+    background-color: var(--menu-panel-header-background-color);
+    color: var(--menu-panel-header-text-color);
+}

@@ -1,0 +1,19 @@
+.menu-panel-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 15px;
+    cursor: pointer;
+    color: var(--menu-panel-item-text-color);
+    border-bottom: 2px solid transparent;
+
+    &:hover {
+        color: var(--menu-panel-item-hover-text-color);
+        border-bottom: 2px solid var(--menu-panel-item-text-color);
+    }
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}

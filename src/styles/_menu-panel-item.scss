@@ -1,0 +1,8 @@
+@use 'sass:map';
+
+@mixin theme($palette) {
+    :root {
+        --menu-panel-item-text-color: #{map.get($palette, 700)};
+        --menu-panel-item-hover-text-color: #{map.get(map.get($palette, contrast), 50)};
+    }
+}
