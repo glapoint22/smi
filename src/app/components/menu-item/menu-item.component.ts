@@ -10,5 +10,5 @@ import { ChangeDetectionStrategy, Component, ViewEncapsulation, input } from '@a
   encapsulation: ViewEncapsulation.None
 })
 export class MenuItemComponent {
-  public title = input<string>();
+  public name = input<string>();
 }

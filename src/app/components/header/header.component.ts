@@ -5,6 +5,11 @@ import { DataEntryMenuPanelComponent } from '../data-entry-menu-panel/data-entry
 import { DashboardMenuPanelComponent } from '../dashboard-menu-panel/dashboard-menu-panel.component';
 import { ResearchMenuPanelComponent } from '../research-menu-panel/research-menu-panel.component';
 import { BalancingMenuPanelComponent } from '../balancing-menu-panel/balancing-menu-panel.component';
+import { CorrespondenceMenuPanelComponent } from '../correspondence-menu-panel/correspondence-menu-panel.component';
+import { QualityAssuranceMenuPanelComponent } from '../quality-assurance-menu-panel/quality-assurance-menu-panel.component';
+import { AdministrationMenuPanelComponent } from '../administration-menu-panel/administration-menu-panel.component';
+import { SearchReportsMenuPanelComponent } from '../search-reports-menu-panel/search-reports-menu-panel.component';
+import { MenuComponent } from '../menu/menu.component';
 
 @Component({
   selector: 'header',
@@ -15,7 +20,12 @@ import { BalancingMenuPanelComponent } from '../balancing-menu-panel/balancing-m
     DataEntryMenuPanelComponent,
     DashboardMenuPanelComponent,
     ResearchMenuPanelComponent,
-    BalancingMenuPanelComponent
+    BalancingMenuPanelComponent,
+    CorrespondenceMenuPanelComponent,
+    QualityAssuranceMenuPanelComponent,
+    AdministrationMenuPanelComponent,
+    SearchReportsMenuPanelComponent,
+    MenuComponent
   ],
   templateUrl: './header.component.html',
   styleUrl: './header.component.scss',
