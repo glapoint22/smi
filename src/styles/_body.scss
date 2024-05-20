@@ -1,0 +1,8 @@
+@use 'sass:map';
+
+@mixin theme($palette) {
+    body.#{map.get($palette, name)} {
+        background-color: #{map.get($palette, 100)};
+        @content;
+    }
+}

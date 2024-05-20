@@ -1,3 +1,7 @@
 @use './styles/reset';
-@use './styles/theme';
+@use './styles/themes';
 @use './styles/icons';
+@use './styles/palettes';
+
+@include themes.theme(palettes.$light-theme-palette);
+@include themes.theme(palettes.$dark-theme-palette);

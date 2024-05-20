@@ -1,0 +1,19 @@
+@use './body';
+@use './navbar';
+@use './menu-panel';
+@use './menu-panel-header';
+@use './menu-panel-item';
+@use './badge';
+@use './menu-item';
+
+
+@mixin theme($palette) {
+  @include body.theme($palette) {
+    @include navbar.theme($palette);
+    @include menu-panel.theme($palette);
+    @include menu-panel-header.theme($palette);
+    @include menu-panel-item.theme($palette);
+    @include badge.theme($palette);
+    @include menu-item.theme($palette);
+  }
+}

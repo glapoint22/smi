@@ -1,7 +1,5 @@
 @use 'sass:map';
 
 @mixin theme($palette) {
-    :root {
-        --navbar-background-color: #{map.get($palette, 700)};
-    }
+    --navbar-background-color: #{map.get($palette, 700)};
 }

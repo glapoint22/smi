@@ -1,8 +1,6 @@
 @use 'sass:map';
 
 @mixin theme($palette) {
-    :root {
-        --menu-panel-background-color: #{map.get($palette, 200)};
-        --menu-panel-border-color: #{map.get($palette, 400)};
-    }
+    --menu-panel-background-color: #{map.get($palette, 200)};
+    --menu-panel-border-color: #{map.get($palette, 400)};
 }
